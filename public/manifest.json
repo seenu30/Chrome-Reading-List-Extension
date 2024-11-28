@@ -2,13 +2,8 @@
   "manifest_version": 3,
   "name": "Reading List Summarizer",
   "version": "1.0",
-  "description": "Accesses the Chrome Reading List and summarizes articles",
-  "permissions": [
-    "bookmarks",
-    "storage",
-    "activeTab",
-    "scripting"
-  ],
+  "description": "Accesses and summarizes the Chrome Reading List and summarizes articles",
+  "permissions": ["readingList"],
   "action": {
     "default_popup": "index.html",
     "default_icon": {
